@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos de Design e CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-color: #4c7faf;
+            color: white;
+            padding: 10px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            list-style-type: none;
+        }
+        nav a {
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            margin: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            margin-top: 20px;
+        }
+        .concepts {
+            margin-left: 30px;
+        }
+        .concepts h3 {
+            color: #4c7faf;
+        }
+        .concepts p {
+            line-height: 1.6;
+        }
+        .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explorando Conceitos de Design e CSS</h1>
+</header>
+
+<nav>
+    <a href="#affordance">Affordance</a>
+    <a href="#semiotica">Semiótica</a>
+    <a href="#usabilidade">Usabilidade</a>
+    <a href="#css">CSS</a>
+    <a href="#formas-css">Formas de Incluir CSS</a>
+    <a href="#referencias">Referências</a>
+</nav>
+
+<section id="affordance">
+    <div class="concepts">
+        <h3>1. Affordance</h3>
+        <img src="https://img.icons8.com/ios/50/000000/laptop.png" alt="Ícone Affordance" class="icon">
+        <p>Affordance é o conceito de como os objetos ou interfaces sugerem suas funções ao usuário. Em design, isso se refere a características de um objeto que indicam como ele deve ser usado. Por exemplo, um botão com um design que sugira que pode ser pressionado.</p>
+    </div>
+</section>
+
+<section id="semiotica">
+    <div class="concepts">
+        <h3>2. Semiótica</h3>
+        <img src="https://img.icons8.com/ios/50/000000/language.png" alt="Ícone Semiótica" class="icon">
+        <p>Semiótica é o estudo dos signos e símbolos e como eles são usados para comunicar significados. No design, isso se aplica ao uso de símbolos, ícones e imagens para transmitir informações de maneira visual.</p>
+    </div>
+</section>
+
+<section id="usabilidade">
+    <div class="concepts">
+        <h3>3. Usabilidade</h3>
+        <img src="https://img.icons8.com/ios/50/000000/user-experience.png" alt="Ícone Usabilidade" class="icon">
+        <p>Usabilidade é a facilidade com que um usuário pode interagir com uma interface. Ela abrange aspectos como eficiência, aprendizado e satisfação do usuário durante o uso de um produto ou serviço.</p>
+    </div>
+</section>
+
+<section id="css">
+    <div class="concepts">
+        <h3>4. CSS (Cascading Style Sheets)</h3>
+        <img src="https://img.icons8.com/ios/50/000000/css3.png" alt="Ícone CSS" class="icon">
+        <p>CSS é uma linguagem usada para descrever a apresentação de um documento escrito em HTML. Ela define como os elementos devem ser exibidos na tela, no papel ou em outras mídias.</p>
+    </div>
+</section>
+
+<section id="formas-css">
+    <div class="concepts">
+        <h3>Formas de Incluir CSS em um Documento HTML</h3>
+        <p>Existem três formas principais de incluir CSS em um documento HTML:</p>
+        <ul>
+            <li><strong>CSS Inline:</strong> Usado diretamente no elemento HTML com o atributo <code>style</code>. Exemplo: <code>&lt;div style="color: red;"&gt;Texto&lt;/div&gt;</code>. Ideal para estilos rápidos e simples.</li>
+            <li><strong>CSS Interno:</strong> Colocado dentro da tag <code>&lt;style&gt;</code> na seção <code>&lt;head&gt;</code>. Exemplo:
+                <pre>
+&lt;style&gt;
+    p { color: blue; }
+&lt;/style&gt;
+                </pre> Ideal para estilos específicos de uma página.</li>
+            <li><strong>CSS Externo:</strong> Referenciado através de um arquivo externo com a tag <code>&lt;link&gt;</code>. Exemplo:
+                <pre>
+&lt;link rel="stylesheet" href="style.css"&gt;
+                </pre> Ideal para manter o código limpo e reutilizável.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="referencias">
+    <div class="concepts">
+        <h3>Referências</h3>
+        <ol>
+            <li><a href="https://www.homemmaquina.com.br/o-que-e-affordance/" target="_blank">Affordance - Saiba Mais</a></li>
+            <li><a href="https://conceito.de/semiotica" target="_blank">Semiótica - Saiba Mais</a></li>
+            <li><a href="https://conceito.de/usabilidade" target="_blank">Usabilidade - Saiba Mais</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS - Saiba Mais</a></li>
+        </ol>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
